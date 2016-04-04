@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/DeckOfPlayingCards-1.0.3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/FisherYates-1.0.2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/PlayingCard-1.0.1" vcs="Git" />
+  </component>
+</project>

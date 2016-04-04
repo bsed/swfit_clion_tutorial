@@ -1,0 +1,5 @@
+version: "Swift version 3.0-dev (LLVM b010debd0e, Clang 3e4d01d89b, Swift 7182c58cb2)"
+options: "8661acdd086175c5b0b561352a0e7754"
+build_time: [513092295, 737137000]
+inputs:
+  "/home/kelvin/ClionProjects/swfit_clion_tutorial/Sources/main.swift": [512869628, 0]

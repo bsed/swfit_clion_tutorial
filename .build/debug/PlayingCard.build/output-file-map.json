@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/master.swiftdeps"
+  },
+  "/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/PlayingCard-1.0.1/Sources/Suit.swift": {
+    "dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Suit.d",
+    "object": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Suit.swift.o",
+    "swiftmodule": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Suit~partial.swiftmodule",
+    "swift-dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Suit.swiftdeps"
+  },
+  "/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/PlayingCard-1.0.1/Sources/PlayingCard.swift": {
+    "dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/PlayingCard.d",
+    "object": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/PlayingCard.swift.o",
+    "swiftmodule": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/PlayingCard~partial.swiftmodule",
+    "swift-dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/PlayingCard.swiftdeps"
+  },
+  "/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/PlayingCard-1.0.1/Sources/Rank.swift": {
+    "dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Rank.d",
+    "object": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Rank.swift.o",
+    "swiftmodule": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Rank~partial.swiftmodule",
+    "swift-dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Rank.swiftdeps"
+  }
+}

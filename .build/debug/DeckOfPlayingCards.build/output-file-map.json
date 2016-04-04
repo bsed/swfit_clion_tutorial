@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.build/master.swiftdeps"
+  },
+  "/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/DeckOfPlayingCards-1.0.3/Sources/Deck.swift": {
+    "dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.build/Deck.d",
+    "object": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.build/Deck.swift.o",
+    "swiftmodule": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.build/Deck~partial.swiftmodule",
+    "swift-dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.build/Deck.swiftdeps"
+  }
+}

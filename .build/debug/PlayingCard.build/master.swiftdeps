@@ -1,0 +1,7 @@
+version: "Swift version 3.0-dev (LLVM b010debd0e, Clang 3e4d01d89b, Swift 7182c58cb2)"
+options: "435113532551a44cc118cfc86559a85a"
+build_time: [513092295, 350840000]
+inputs:
+  "/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/PlayingCard-1.0.1/Sources/Suit.swift": [512869658, 0]
+  "/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/PlayingCard-1.0.1/Sources/PlayingCard.swift": [512869658, 0]
+  "/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/PlayingCard-1.0.1/Sources/Rank.swift": [512869658, 0]

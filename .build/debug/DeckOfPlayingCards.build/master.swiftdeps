@@ -1,0 +1,5 @@
+version: "Swift version 3.0-dev (LLVM b010debd0e, Clang 3e4d01d89b, Swift 7182c58cb2)"
+options: "e80db8febfad1e3439f6f1a3db5b6f39"
+build_time: [513092295, 640822000]
+inputs:
+  "/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/DeckOfPlayingCards-1.0.3/Sources/Deck.swift": [512869649, 0]

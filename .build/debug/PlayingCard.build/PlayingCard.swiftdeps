@@ -1,0 +1,147 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlayingCard"
+- "=="
+- "<"
+provides-nominal:
+- "V11PlayingCard11PlayingCard"
+provides-member:
+- ["V11PlayingCard11PlayingCard", ""]
+depends-top-level:
+- "<"
+- "String"
+- "CustomStringConvertible"
+- "Equatable"
+- ">"
+- !private "StringLiteralType"
+- "Comparable"
+- "Rank"
+- "Bool"
+- "=="
+- !private "||"
+- "<="
+- "PlayingCard"
+- !private "&&"
+- "Suit"
+- ">="
+depends-member:
+- !private ["Sb", "deinit"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "RawValue"]
+- ["Ps10Comparable", "description"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "rank"]
+- !private ["Ps10Comparable", "suit"]
+- ["Ps10Comparable", ""]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "RawValue"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "rank"]
+- !private ["Ps23CustomStringConvertible", "suit"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "RawValue"]
+- ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "rank"]
+- !private ["Ps9Equatable", "suit"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps12OutputStream", "init"]
+- ["V11PlayingCard11PlayingCard", "Rank"]
+- ["V11PlayingCard11PlayingCard", "String"]
+- ["V11PlayingCard11PlayingCard", "Suit"]
+- ["V11PlayingCard11PlayingCard", "deinit"]
+- ["V11PlayingCard11PlayingCard", "description"]
+- ["V11PlayingCard11PlayingCard", "init"]
+- ["V11PlayingCard11PlayingCard", "rank"]
+- ["V11PlayingCard11PlayingCard", "suit"]
+- !private ["O11PlayingCard4Rank", "RawValue"]
+- !private ["O11PlayingCard4Rank", "deinit"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["O11PlayingCard4Suit", "RawValue"]
+- !private ["O11PlayingCard4Suit", "deinit"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+depends-nominal:
+- !private "Sb"
+- !private "Vs9Character"
+- "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps10MirrorPath"
+- !private "Ps12OutputStream"
+- "V11PlayingCard11PlayingCard"
+- !private "O11PlayingCard4Rank"
+- !private "Ps16RawRepresentable"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "O11PlayingCard4Suit"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/Visibility.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/LibcShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RefCount.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/HeapObject.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/module.map"
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "cde58e59ec2da62f5a5c8f1a4390e4c2"

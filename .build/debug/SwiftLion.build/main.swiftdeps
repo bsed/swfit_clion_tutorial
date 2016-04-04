@@ -1,0 +1,209 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HelloWorld"
+- "h"
+provides-nominal:
+- "C9SwiftLion10HelloWorld"
+provides-member:
+- ["C9SwiftLion10HelloWorld", ""]
+depends-top-level:
+- !private "StringLiteralType"
+- "HelloWorld"
+- !private "print"
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
+- !private "..."
+- !private "Deck"
+- "h"
+depends-member:
+- !private ["Ps9AnyObject", "Deck"]
+- ["Ps9AnyObject", "dealSomeCards"]
+- ["Ps9AnyObject", "greet"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23ArrayLiteralConvertible", "deal"]
+- !private ["Ps23ArrayLiteralConvertible", "shuffle"]
+- !private ["Ps23ArrayLiteralConvertible", "standard52CardDeck"]
+- !private ["Ps18BidirectionalIndex", "Distance"]
+- !private ["Ps18BidirectionalIndex", "IntegerLiteralType"]
+- !private ["Ps18BidirectionalIndex", "_DisabledRangeIndex"]
+- !private ["Ps17BitwiseOperations", "Distance"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["Ps7CVarArg", "Distance"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Vs14ClosedInterval", "deinit"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Distance"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "Distance"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["V18DeckOfPlayingCards4Deck", "deal"]
+- !private ["V18DeckOfPlayingCards4Deck", "shuffle"]
+- !private ["V18DeckOfPlayingCards4Deck", "standard52CardDeck"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "deal"]
+- !private ["Ps9Equatable", "shuffle"]
+- !private ["Ps9Equatable", "standard52CardDeck"]
+- !private ["Ps12ForwardIndex", "Distance"]
+- !private ["Ps12ForwardIndex", "IntegerLiteralType"]
+- !private ["Ps12ForwardIndex", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["C9SwiftLion10HelloWorld", "Deck"]
+- ["C9SwiftLion10HelloWorld", "dealSomeCards"]
+- ["C9SwiftLion10HelloWorld", "deinit"]
+- ["C9SwiftLion10HelloWorld", "greet"]
+- ["C9SwiftLion10HelloWorld", "init"]
+- !private ["C9SwiftLion10HelloWorld", "print"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "_DisabledRangeIndex"]
+- !private ["Ps7Integer", "Distance"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "Distance"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps10MirrorPath", "Distance"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- ["Ps21NilLiteralConvertible", "some"]
+- ["Sq", "some"]
+- !private ["Ps17RandomAccessIndex", "Distance"]
+- !private ["Ps17RandomAccessIndex", "IntegerLiteralType"]
+- !private ["Ps17RandomAccessIndex", "_DisabledRangeIndex"]
+- !private ["Vs5Range", "Iterator"]
+- !private ["Vs13RangeIterator", "Element"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps13SignedInteger", "Distance"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "Distance"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- !private ["P10Foundation13_BitShiftable", "Distance"]
+- !private ["P10Foundation13_BitShiftable", "IntegerLiteralType"]
+- !private ["P10Foundation13_BitShiftable", "_DisabledRangeIndex"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "_DisabledRangeIndex"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "Distance"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "Distance"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["P10Foundation12_IntegerLike", "Distance"]
+- !private ["P10Foundation12_IntegerLike", "IntegerLiteralType"]
+- !private ["P10Foundation12_IntegerLike", "_DisabledRangeIndex"]
+- !private ["P10Foundation22_NSObjectRepresentable", "Distance"]
+- !private ["P10Foundation22_NSObjectRepresentable", "IntegerLiteralType"]
+- !private ["P10Foundation22_NSObjectRepresentable", "_DisabledRangeIndex"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Distance"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "IntegerLiteralType"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "_DisabledRangeIndex"]
+- !private ["Ps14_SignedInteger", "Distance"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps18BidirectionalIndex"
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- !private "Vs14ClosedInterval"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V18DeckOfPlayingCards4Deck"
+- !private "Ps9Equatable"
+- !private "Ps12ForwardIndex"
+- !private "Ps8Hashable"
+- "C9SwiftLion10HelloWorld"
+- !private "Ps9Indexable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps16IteratorProtocol"
+- !private "Ps10MirrorPath"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps17RandomAccessIndex"
+- !private "Vs5Range"
+- !private "Vs13RangeIterator"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "P10Foundation13_BitShiftable"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "P10Foundation22_NSObjectRepresentable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps14_SignedInteger"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/Visibility.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/LibcShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RefCount.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/HeapObject.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/module.map"
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.swiftmodule"
+- "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.swiftmodule"
+- "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.swiftmodule"
+interface-hash: "cfc556227cc56a24b76e1a309883f992"

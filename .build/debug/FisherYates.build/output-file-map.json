@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.build/master.swiftdeps"
+  },
+  "/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/FisherYates-1.0.2/Sources/Fisher-Yates_Shuffle.swift": {
+    "dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.build/Fisher-Yates_Shuffle.d",
+    "object": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.build/Fisher-Yates_Shuffle.swift.o",
+    "swiftmodule": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.build/Fisher-Yates_Shuffle~partial.swiftmodule",
+    "swift-dependencies": "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.build/Fisher-Yates_Shuffle.swiftdeps"
+  }
+}

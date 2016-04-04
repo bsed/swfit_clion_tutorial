@@ -1,0 +1,175 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Suit"
+- "<"
+provides-nominal:
+- "O11PlayingCard4Suit"
+provides-member:
+- ["O11PlayingCard4Suit", ""]
+depends-top-level:
+- "CustomStringConvertible"
+- !private "IntegerLiteralType"
+- "Suit"
+- "=="
+- !private "~="
+- "<="
+- !private "UnicodeScalarType"
+- !private "BooleanLiteralType"
+- "String"
+- !private "FloatLiteralType"
+- "<"
+- !private "ExtendedGraphemeClusterType"
+- ">"
+- "Comparable"
+- ">="
+- "Bool"
+- "StringLiteralType"
+depends-member:
+- !private ["Ps18BidirectionalIndex", "hashValue"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7Boolean", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps10Comparable", "Clubs"]
+- ["Ps10Comparable", "Diamonds"]
+- ["Ps10Comparable", "Hearts"]
+- ["Ps10Comparable", "RawValue"]
+- ["Ps10Comparable", "Spades"]
+- ["Ps10Comparable", "description"]
+- ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "rawValue"]
+- ["Ps10Comparable", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps23CustomStringConvertible", "Clubs"]
+- ["Ps23CustomStringConvertible", "Diamonds"]
+- ["Ps23CustomStringConvertible", "Hearts"]
+- ["Ps23CustomStringConvertible", "RawValue"]
+- ["Ps23CustomStringConvertible", "Spades"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "description"]
+- ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "rawValue"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "Clubs"]
+- ["Ps9Equatable", "Diamonds"]
+- ["Ps9Equatable", "Hearts"]
+- ["Ps9Equatable", "RawValue"]
+- ["Ps9Equatable", "Spades"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "description"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps12ForwardIndex", "hashValue"]
+- ["Ps8Hashable", "Clubs"]
+- ["Ps8Hashable", "Diamonds"]
+- ["Ps8Hashable", "Hearts"]
+- ["Ps8Hashable", "RawValue"]
+- ["Ps8Hashable", "Spades"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "description"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps17RandomAccessIndex", "hashValue"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "Clubs"]
+- ["Ps16RawRepresentable", "Diamonds"]
+- ["Ps16RawRepresentable", "Hearts"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "Spades"]
+- ["Ps16RawRepresentable", "description"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["O11PlayingCard4Suit", "Clubs"]
+- ["O11PlayingCard4Suit", "Diamonds"]
+- ["O11PlayingCard4Suit", "Hearts"]
+- ["O11PlayingCard4Suit", "RawValue"]
+- ["O11PlayingCard4Suit", "Spades"]
+- ["O11PlayingCard4Suit", "String"]
+- ["O11PlayingCard4Suit", "deinit"]
+- ["O11PlayingCard4Suit", "description"]
+- ["O11PlayingCard4Suit", "hashValue"]
+- ["O11PlayingCard4Suit", "init"]
+- ["O11PlayingCard4Suit", "rawValue"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+depends-nominal:
+- !private "Ps18BidirectionalIndex"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7Boolean"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps7CVarArg"
+- "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps12ForwardIndex"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17RandomAccessIndex"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "O11PlayingCard4Suit"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps14_SignedInteger"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/Visibility.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/LibcShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RefCount.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/HeapObject.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/module.map"
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "443601782fab6b9ecd798bc78089efba"

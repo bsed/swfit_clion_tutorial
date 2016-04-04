@@ -1,0 +1,413 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Deck"
+- "=="
+provides-nominal:
+- "V18DeckOfPlayingCards4Deck"
+provides-member:
+- ["V18DeckOfPlayingCards4Deck", ""]
+depends-top-level:
+- !private "Suit"
+- "Bool"
+- "Deck"
+- !private "!"
+- "ArrayLiteralConvertible"
+- "Equatable"
+- "PlayingCard"
+- !private "Rank"
+- "=="
+depends-member:
+- !private ["Sa", "Index"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "removeLast"]
+- !private ["Sa", "shuffleInPlace"]
+- !private ["Ps23ArrayLiteralConvertible", "Deck"]
+- ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "Iterator"]
+- !private ["Ps23ArrayLiteralConvertible", "PlayingCard"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "cards"]
+- ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "isEmpty"]
+- !private ["Ps23ArrayLiteralConvertible", "removeLast"]
+- !private ["Ps23ArrayLiteralConvertible", "shuffleInPlace"]
+- ["Ps23ArrayLiteralConvertible", ""]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Vs10ArraySlice", "Iterator"]
+- !private ["Vs10ArraySlice", "SubSequence"]
+- !private ["Ps18BidirectionalIndex", "Distance"]
+- !private ["Ps18BidirectionalIndex", "IntegerLiteralType"]
+- !private ["Ps18BidirectionalIndex", "_DisabledRangeIndex"]
+- !private ["Ps17BitwiseOperations", "Distance"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7Boolean", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "Distance"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["Ps10Collection", "removeLast"]
+- !private ["Ps10Collection", "shuffleInPlace"]
+- !private ["Ps10Comparable", "Ace"]
+- !private ["Ps10Comparable", "Clubs"]
+- !private ["Ps10Comparable", "Diamonds"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "Eight"]
+- !private ["Ps10Comparable", "Five"]
+- !private ["Ps10Comparable", "Four"]
+- !private ["Ps10Comparable", "Hearts"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Jack"]
+- !private ["Ps10Comparable", "King"]
+- !private ["Ps10Comparable", "Nine"]
+- !private ["Ps10Comparable", "Queen"]
+- !private ["Ps10Comparable", "Seven"]
+- !private ["Ps10Comparable", "Six"]
+- !private ["Ps10Comparable", "Spades"]
+- !private ["Ps10Comparable", "Ten"]
+- !private ["Ps10Comparable", "Three"]
+- !private ["Ps10Comparable", "Two"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "removeLast"]
+- !private ["Ps28CustomDebugStringConvertible", "shuffleInPlace"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Distance"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "Distance"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "removeLast"]
+- !private ["Ps17CustomReflectable", "shuffleInPlace"]
+- !private ["Ps23CustomStringConvertible", "Ace"]
+- !private ["Ps23CustomStringConvertible", "Clubs"]
+- !private ["Ps23CustomStringConvertible", "Diamonds"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Eight"]
+- !private ["Ps23CustomStringConvertible", "Five"]
+- !private ["Ps23CustomStringConvertible", "Four"]
+- !private ["Ps23CustomStringConvertible", "Hearts"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Jack"]
+- !private ["Ps23CustomStringConvertible", "King"]
+- !private ["Ps23CustomStringConvertible", "Nine"]
+- !private ["Ps23CustomStringConvertible", "Queen"]
+- !private ["Ps23CustomStringConvertible", "Seven"]
+- !private ["Ps23CustomStringConvertible", "Six"]
+- !private ["Ps23CustomStringConvertible", "Spades"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Ten"]
+- !private ["Ps23CustomStringConvertible", "Three"]
+- !private ["Ps23CustomStringConvertible", "Two"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "removeLast"]
+- !private ["Ps23CustomStringConvertible", "shuffleInPlace"]
+- ["V18DeckOfPlayingCards4Deck", "Deck"]
+- ["V18DeckOfPlayingCards4Deck", "Element"]
+- ["V18DeckOfPlayingCards4Deck", "PlayingCard"]
+- !private ["V18DeckOfPlayingCards4Deck", "Rank"]
+- !private ["V18DeckOfPlayingCards4Deck", "Suit"]
+- !private ["V18DeckOfPlayingCards4Deck", "cards"]
+- ["V18DeckOfPlayingCards4Deck", "deal"]
+- ["V18DeckOfPlayingCards4Deck", "deinit"]
+- ["V18DeckOfPlayingCards4Deck", "init"]
+- ["V18DeckOfPlayingCards4Deck", "shuffle"]
+- ["V18DeckOfPlayingCards4Deck", "standard52CardDeck"]
+- !private ["Ps9Equatable", "Ace"]
+- !private ["Ps9Equatable", "Clubs"]
+- !private ["Ps9Equatable", "Deck"]
+- !private ["Ps9Equatable", "Diamonds"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Eight"]
+- ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "Five"]
+- !private ["Ps9Equatable", "Four"]
+- !private ["Ps9Equatable", "Hearts"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Jack"]
+- !private ["Ps9Equatable", "King"]
+- !private ["Ps9Equatable", "Nine"]
+- !private ["Ps9Equatable", "PlayingCard"]
+- !private ["Ps9Equatable", "Queen"]
+- !private ["Ps9Equatable", "Seven"]
+- !private ["Ps9Equatable", "Six"]
+- !private ["Ps9Equatable", "Spades"]
+- !private ["Ps9Equatable", "Ten"]
+- !private ["Ps9Equatable", "Three"]
+- !private ["Ps9Equatable", "Two"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "cards"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps12ForwardIndex", "Distance"]
+- !private ["Ps12ForwardIndex", "IntegerLiteralType"]
+- !private ["Ps12ForwardIndex", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "Ace"]
+- !private ["Ps8Hashable", "Clubs"]
+- !private ["Ps8Hashable", "Diamonds"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "Eight"]
+- !private ["Ps8Hashable", "Five"]
+- !private ["Ps8Hashable", "Four"]
+- !private ["Ps8Hashable", "Hearts"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Jack"]
+- !private ["Ps8Hashable", "King"]
+- !private ["Ps8Hashable", "Nine"]
+- !private ["Ps8Hashable", "Queen"]
+- !private ["Ps8Hashable", "Seven"]
+- !private ["Ps8Hashable", "Six"]
+- !private ["Ps8Hashable", "Spades"]
+- !private ["Ps8Hashable", "Ten"]
+- !private ["Ps8Hashable", "Three"]
+- !private ["Ps8Hashable", "Two"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "isEmpty"]
+- !private ["Ps9Indexable", "removeLast"]
+- !private ["Ps9Indexable", "shuffleInPlace"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "_DisabledRangeIndex"]
+- !private ["Ps7Integer", "Distance"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "Distance"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps10MirrorPath", "Distance"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps17MutableCollection", "Index"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "SubSequence"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps17MutableCollection", "removeLast"]
+- !private ["Ps17MutableCollection", "shuffleInPlace"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "isEmpty"]
+- !private ["Ps16MutableIndexable", "removeLast"]
+- !private ["Ps16MutableIndexable", "shuffleInPlace"]
+- !private ["V11PlayingCard11PlayingCard", "init"]
+- !private ["Ps17RandomAccessIndex", "Distance"]
+- !private ["Ps17RandomAccessIndex", "IntegerLiteralType"]
+- !private ["Ps17RandomAccessIndex", "_DisabledRangeIndex"]
+- !private ["Ps26RangeReplaceableCollection", "Index"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "SubSequence"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "removeLast"]
+- !private ["Ps26RangeReplaceableCollection", "shuffleInPlace"]
+- !private ["O11PlayingCard4Rank", "Ace"]
+- !private ["O11PlayingCard4Rank", "Eight"]
+- !private ["O11PlayingCard4Rank", "Five"]
+- !private ["O11PlayingCard4Rank", "Four"]
+- !private ["O11PlayingCard4Rank", "Jack"]
+- !private ["O11PlayingCard4Rank", "King"]
+- !private ["O11PlayingCard4Rank", "Nine"]
+- !private ["O11PlayingCard4Rank", "Queen"]
+- !private ["O11PlayingCard4Rank", "Seven"]
+- !private ["O11PlayingCard4Rank", "Six"]
+- !private ["O11PlayingCard4Rank", "Ten"]
+- !private ["O11PlayingCard4Rank", "Three"]
+- !private ["O11PlayingCard4Rank", "Two"]
+- !private ["Ps16RawRepresentable", "Ace"]
+- !private ["Ps16RawRepresentable", "Clubs"]
+- !private ["Ps16RawRepresentable", "Diamonds"]
+- !private ["Ps16RawRepresentable", "Eight"]
+- !private ["Ps16RawRepresentable", "Five"]
+- !private ["Ps16RawRepresentable", "Four"]
+- !private ["Ps16RawRepresentable", "Hearts"]
+- !private ["Ps16RawRepresentable", "Jack"]
+- !private ["Ps16RawRepresentable", "King"]
+- !private ["Ps16RawRepresentable", "Nine"]
+- !private ["Ps16RawRepresentable", "Queen"]
+- !private ["Ps16RawRepresentable", "Seven"]
+- !private ["Ps16RawRepresentable", "Six"]
+- !private ["Ps16RawRepresentable", "Spades"]
+- !private ["Ps16RawRepresentable", "Ten"]
+- !private ["Ps16RawRepresentable", "Three"]
+- !private ["Ps16RawRepresentable", "Two"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps8Sequence", "removeLast"]
+- !private ["Ps8Sequence", "shuffleInPlace"]
+- !private ["Ps13SignedInteger", "Distance"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "Distance"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- !private ["O11PlayingCard4Suit", "Clubs"]
+- !private ["O11PlayingCard4Suit", "Diamonds"]
+- !private ["O11PlayingCard4Suit", "Hearts"]
+- !private ["O11PlayingCard4Suit", "Spades"]
+- !private ["Ps14_ArrayProtocol", "Index"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "SubSequence"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps14_ArrayProtocol", "removeLast"]
+- !private ["Ps14_ArrayProtocol", "shuffleInPlace"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "_DisabledRangeIndex"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "removeLast"]
+- !private ["Ps24_DestructorSafeContainer", "shuffleInPlace"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "Distance"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "Distance"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "_DisabledRangeIndex"]
+- !private ["Ps14_SignedInteger", "Distance"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+depends-nominal:
+- !private "Sa"
+- "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps18BidirectionalIndex"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7Boolean"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V18DeckOfPlayingCards4Deck"
+- "Ps9Equatable"
+- !private "Ps12ForwardIndex"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps16IteratorProtocol"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "V11PlayingCard11PlayingCard"
+- !private "Ps17RandomAccessIndex"
+- !private "Ps26RangeReplaceableCollection"
+- !private "O11PlayingCard4Rank"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "O11PlayingCard4Suit"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps14_SignedInteger"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/Visibility.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/LibcShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/RefCount.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/HeapObject.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/kelvin/swift/swift3/usr/lib/swift/shims/module.map"
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.swiftmodule"
+- "/home/kelvin/swift/swift3/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.swiftmodule"
+interface-hash: "4581560ffcb54b19d3486093a4e742ba"

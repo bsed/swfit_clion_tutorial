@@ -1,0 +1,86 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  test: []
+  default: [<FisherYates.module>, <PlayingCard.module>, <DeckOfPlayingCards.module>, <SwiftLion.module>, <SwiftLion.exe>]
+commands: 
+  /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.build:
+    tool: mkdir
+    outputs: [/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.build]
+
+  <FisherYates.module>:
+    tool: swift-compiler
+    executable: /home/kelvin/swift/swift3/usr/bin/swiftc
+    module-name: FisherYates
+    module-output-path: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.swiftmodule
+    inputs: []
+    outputs: [<FisherYates.module>, "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.build/Fisher-Yates_Shuffle.swift.o"]
+    import-paths: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug
+    temps-path: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.build
+    objects: ["/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.build/Fisher-Yates_Shuffle.swift.o"]
+    other-args: ["-j8", "-Onone", "-g", "-D", SWIFT_PACKAGE, "-enable-testing"]
+    sources: ["/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/FisherYates-1.0.2/Sources/Fisher-Yates_Shuffle.swift"]
+    is-library: true
+
+  /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build:
+    tool: mkdir
+    outputs: [/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build]
+
+  <PlayingCard.module>:
+    tool: swift-compiler
+    executable: /home/kelvin/swift/swift3/usr/bin/swiftc
+    module-name: PlayingCard
+    module-output-path: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.swiftmodule
+    inputs: []
+    outputs: [<PlayingCard.module>, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Suit.swift.o, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/PlayingCard.swift.o, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Rank.swift.o]
+    import-paths: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug
+    temps-path: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build
+    objects: [/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Suit.swift.o, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/PlayingCard.swift.o, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Rank.swift.o]
+    other-args: ["-j8", "-Onone", "-g", "-D", SWIFT_PACKAGE, "-enable-testing"]
+    sources: ["/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/PlayingCard-1.0.1/Sources/Suit.swift", "/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/PlayingCard-1.0.1/Sources/PlayingCard.swift", "/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/PlayingCard-1.0.1/Sources/Rank.swift"]
+    is-library: true
+
+  /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.build:
+    tool: mkdir
+    outputs: [/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.build]
+
+  <DeckOfPlayingCards.module>:
+    tool: swift-compiler
+    executable: /home/kelvin/swift/swift3/usr/bin/swiftc
+    module-name: DeckOfPlayingCards
+    module-output-path: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.swiftmodule
+    inputs: [<PlayingCard.module>, <FisherYates.module>]
+    outputs: [<DeckOfPlayingCards.module>, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.build/Deck.swift.o]
+    import-paths: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug
+    temps-path: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.build
+    objects: [/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.build/Deck.swift.o]
+    other-args: ["-j8", "-Onone", "-g", "-D", SWIFT_PACKAGE, "-enable-testing"]
+    sources: ["/home/kelvin/ClionProjects/swfit_clion_tutorial/Packages/DeckOfPlayingCards-1.0.3/Sources/Deck.swift"]
+    is-library: true
+
+  /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/SwiftLion.build:
+    tool: mkdir
+    outputs: [/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/SwiftLion.build]
+
+  <SwiftLion.module>:
+    tool: swift-compiler
+    executable: /home/kelvin/swift/swift3/usr/bin/swiftc
+    module-name: SwiftLion
+    module-output-path: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/SwiftLion.swiftmodule
+    inputs: [<PlayingCard.module>, <FisherYates.module>, <DeckOfPlayingCards.module>]
+    outputs: [<SwiftLion.module>, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/SwiftLion.build/main.swift.o]
+    import-paths: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug
+    temps-path: /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/SwiftLion.build
+    objects: [/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/SwiftLion.build/main.swift.o]
+    other-args: ["-j8", "-Onone", "-g", "-D", SWIFT_PACKAGE, "-enable-testing"]
+    sources: [/home/kelvin/ClionProjects/swfit_clion_tutorial/Sources/main.swift]
+    is-library: false
+
+  <SwiftLion.exe>:
+    tool: shell
+    description: Linking .build/debug/SwiftLion
+    inputs: [<PlayingCard.module>, <FisherYates.module>, <DeckOfPlayingCards.module>, <SwiftLion.module>, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/SwiftLion.build/main.swift.o]
+    outputs: [<SwiftLion.exe>, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/SwiftLion]
+    args: [/home/kelvin/swift/swift3/usr/bin/swiftc, "-g", "-L/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug", "-o", /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/SwiftLion, "-emit-executable", /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/SwiftLion.build/main.swift.o, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Suit.swift.o, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/PlayingCard.swift.o, /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/PlayingCard.build/Rank.swift.o, "/home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/FisherYates.build/Fisher-Yates_Shuffle.swift.o", /home/kelvin/ClionProjects/swfit_clion_tutorial/.build/debug/DeckOfPlayingCards.build/Deck.swift.o]
+
